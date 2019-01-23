@@ -112,7 +112,7 @@ html {
 
 body {
   background: #111111;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -141,7 +141,7 @@ a:active {
 
 h1,
 h3 {
-  font-family: "metropolis-semibold", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -149,7 +149,7 @@ h3 {
 }
 
 p.lead {
-  font-family: "metropolis-light", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.9rem;
   line-height: 1.8;
   margin-bottom: 3.6rem;
