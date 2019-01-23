@@ -1370,6 +1370,7 @@ input::-moz-focus-inner {
   margin: 0;
   top: 0;
   right: 0;
+  opacity: 0;
 }
 
 #mc-form label {
@@ -1533,10 +1534,9 @@ input::-moz-focus-inner {
   z-index: 502;
   font-size: 1.5rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.8);
   padding: 30px 60px 42px;
-  position: absolute;
-  left: 0;
+  position: fixed;
   bottom: 0;
 }
 
@@ -1704,8 +1704,9 @@ html.no-csstransitions .home-content__main {
   .home-content__subscribe {
     margin: 3rem 0 0 0;
     position: fixed;
-    bottom: 50px;
+    bottom: 180px;
     width: 85%;
+    opacity: 1;
   }
 
   .home-content__counter .time {
@@ -1833,7 +1834,8 @@ html.no-csstransitions .home-content__main {
   .home-content__text {
     padding-right: 60px;
     margin-bottom: 7.2rem;
-    height: 400px;
+    min-height: 400px;
+    height: auto;
   }
 
   .home-content__counter .top {
@@ -1842,10 +1844,10 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-copyright {
-    position: static;
+    position: fixed;
     width: auto;
-    margin-top: 9rem;
-    padding: 30px 15px 42px;
+    bottom: 0;
+    padding: 30px 50px 42px;
   }
 
   .home-content__line {
@@ -1980,7 +1982,7 @@ html.no-csstransitions .home-content__main {
   .c2a-btn {
     position: static;
     width: 100%;
-    margin-bottom: 0.1rem;
+    margin-bottom: 4rem;
   }
 
   .home-copyright span {
@@ -2024,7 +2026,6 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-copyright {
-    margin-top: 7.8rem;
   }
   .home-content__text {
     padding-bottom: 0;

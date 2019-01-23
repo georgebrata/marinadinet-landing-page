@@ -66,7 +66,7 @@
         <!-- end home-content__main -->
 
         <div class="row home-copyright">
-          <span>Copyright Marinadi 2019</span>
+          <!--<span>Copyright Marinadi 2019</span>-->
           <span
             >Crafted with ❤ by
             <a href="https://georgebrata.ro/">George</a></span
@@ -187,6 +187,11 @@
         startDelay: 3000,
         loop: true,
         stringsElement: "#typed-strings"
+      });
+      document.addEventListener("DOMContentLoaded", function(event) {
+        setTimeout(function() {
+          document.querySelector('.c2a-btn').style.opacity = 1;
+        }, 5000)
       });
     </script>
   </body>
