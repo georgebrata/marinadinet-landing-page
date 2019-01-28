@@ -35,7 +35,7 @@
 }
 
 .line-scale-pulse-out > div {
-  background-color: #ec008c;
+  background-color: #00b8ff;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -123,7 +123,7 @@ body {
 }
 
 a {
-  color: #ec008c;
+  color: #00b8ff;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -142,7 +142,7 @@ a:active {
 h1,
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #FFFFFF;
+  color: #00b8ff;
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 2.1rem;
@@ -276,7 +276,7 @@ main .entry__thumb a::after {
   left: 50%;
   top: 50%;
   text-align: center;
-  color: #FFFFFF;
+  color: #00b8ff;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
