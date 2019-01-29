@@ -1,0 +1,18 @@
+:root {
+    --primary-color: blue;
+    --primary-color-dark: darkblue;
+    --secondary-color: red;
+    --dark-color: black;
+    --light-color: white;
+    --primary-typography: "Montserrat", sans-serif;
+    --secondary-typography: "Noto Serif SC", serif;
+    --loading-background: gray;
+  }
+
+  .marinadi-logo {
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+  body {
+      background: white;
+  }

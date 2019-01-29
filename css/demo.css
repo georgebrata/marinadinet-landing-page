@@ -35,7 +35,7 @@
 }
 
 .line-scale-pulse-out > div {
-  background-color: #00b8ff;
+  background-color: var(--primary-color);
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -112,7 +112,7 @@ html {
 
 body {
   background: #111111;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--primary-typography);
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -123,7 +123,7 @@ body {
 }
 
 a {
-  color: #00b8ff;
+  color: var(--primary-color);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -141,15 +141,15 @@ a:active {
 
 h1,
 h3 {
-  font-family: "Montserrat", sans-serif;
-  color: #00b8ff;
+  font-family: var(--primary-typography);
+  color: var(--primary-color);
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 2.1rem;
 }
 
 p.lead {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--primary-typography);
   font-size: 1.9rem;
   line-height: 1.8;
   margin-bottom: 3.6rem;
@@ -208,7 +208,7 @@ header h1 {
 }
 
 header h1 span {
-  color: #ec008c;
+  color: var(--primary-color);
 }
 
 @media only screen and (max-width:600px) {
@@ -276,7 +276,7 @@ main .entry__thumb a::after {
   left: 50%;
   top: 50%;
   text-align: center;
-  color: #00b8ff;
+  color: var(--primary-color);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
@@ -307,7 +307,7 @@ main .entry__title h3 {
   font-size: 1.8rem;
   line-height: 1.5;
   margin-bottom: 1.8rem;
-  color: white;
+  color: var(--light-color);
 }
 
 /* ------------------------------------------------------------------- 
