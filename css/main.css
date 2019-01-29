@@ -1541,7 +1541,7 @@ input::-moz-focus-inner {
   font-size: 1.1rem;
   line-height: 1.8;
   color: var(--dark-color);
-  padding: 30px 60px;
+  padding: 10px 60px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -1551,16 +1551,12 @@ input::-moz-focus-inner {
 .home-copyright a {
   color: var(--dark-color);
 }
-.home-copyright a:hover, .home-copyright:hover a {
-  color: red;
-}
 
 .home-copyright span {
   display: inline-block;
 }
 
 .home-copyright span::after {
-  content: "|";
   display: inline-block;
   padding: 0 .5rem 0 .8rem;
   color: var(--primary-color);
@@ -1843,17 +1839,24 @@ html.no-csstransitions .home-content__main {
     margin: 0;
   }
 
-  .home-copyright {
-    position: fixed;
-    bottom: 0;
-    padding: 30px 50px 12px;
-  }
-
   .home-content__line {
     display: none;
   }
   .home-content__text {
     padding-bottom: 10rem;
+  }
+  .desktop-brand {
+    display: none;
+  }
+
+  .mobile-brand {
+    display: block;
+  }
+  .mobile-brand a {
+    font-weight: 600;
+  }
+  .mobile-brand p {
+    margin-bottom: 0;
   }
 
 }
@@ -1874,13 +1877,13 @@ html.no-csstransitions .home-content__main {
   .home-social {
     display: none;
   }
-  .home-content__text {
-    padding-bottom: 5rem;
-  }
 
 }
 
 @media only screen and (max-width:700px) {
+  .desktop-brand {
+    display: none;
+  }
   .home-content h1 {
     font-size: 4rem;
   }
@@ -1911,7 +1914,6 @@ html.no-csstransitions .home-content__main {
   .catalog-btn {
     margin-left: 0;
   }
-
 }
 /*
 @media only screen and (max-width:600px) {
@@ -1987,46 +1989,22 @@ html.no-csstransitions .home-content__main {
   }
 
 }
-/*
+
 @media only screen and (max-width:400px) {
   .s-home {
-    min-height: 630px;
-  }
-
-  .home-logo {
-    right: 30px;
-  }
-
-  .home-logo img {
-    width: 95px;
-    height: 24px;
-  }
-
-  .home-content h1 {
-    font-size: 3rem;
-  }
-
-  .home-content__main {
-    max-width: auto;
-  }
-
-  .home-content__text {
-    padding-right: 0;
+    min-height: 430px;
   }
 
   .home-content__text p {
     font-size: 1.6rem;
   }
 
-  .home-copyright {
-  }
   .home-content__text {
     padding-bottom: 0;
   }
 
 }
 
-*/
 
 
 /* ===================================================================

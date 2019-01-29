@@ -1,19 +1,147 @@
 :root {
-    --primary-color: blue;
-    --primary-color-dark: darkblue;
-    --secondary-color: red;
-    --dark-color: black;
-    --light-color: white;
-    --primary-typography: "Montserrat", sans-serif;
-    --secondary-typography: 'Lora', sans-serif;
-    --tertiary-typography: "Noto Serif SC", serif;
-    --loading-background: gray;
-  }
+  --primary-color: blue;
+  --primary-color-dark: darkblue;
+  --secondary-color: red;
+  --dark-color: black;
+  --light-color: white;
+  --primary-typography: "Montserrat", sans-serif;
+  --secondary-typography: "Lora", sans-serif;
+  --tertiary-typography: "Noto Serif SC", serif;
+  --loading-background: gray;
+}
 
-  .marinadi-logo {
-      margin-bottom: 20px;
-      margin-left: 20px;
+.marinadi-logo {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+body {
+  background: white;
+}
+
+.Iam {
+  padding: 0;
+}
+.Iam p {
+  height: 50px;
+  float: left;
+  margin-top: 38px;
+  line-height: 32px;
+}
+.Iam span {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+  top: 40px;
+  line-height: 31px;
+}
+.Iam .innerIam {
+  display: inline-block;
+  color: inherit;
+  position: relative;
+  white-space: nowrap;
+  line-height: 31px;
+  top: 0;
+  left: 5px;
+}
+.home-copyright:hover {
+    cursor: pointer;
+}
+.home-copyright:hover .Iam .innerIam {
+  cursor: pointer;
+  color: red;
+  /*animation*/
+  -webkit-animation: move 5s;
+  -moz-animation: move 5s;
+  -ms-animation: move 5s;
+  -o-animation: move 5s;
+  animation: move 5s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /*animation-delay*/
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes move {
+  0% {
+    top: 0px;
   }
-  body {
-      background: white;
+  20% {
+    top: -31px;
   }
+  40% {
+    top: -62px;
+  }
+  60% {
+    top: -93px;
+  }
+  80% {
+    top: -124px;
+  }
+}
+@-moz-keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -31px;
+  }
+  40% {
+    top: -62px;
+  }
+  60% {
+    top: -93px;
+  }
+  80% {
+    top: -124px;
+  }
+}
+@-o-keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -31px;
+  }
+  40% {
+    top: -62px;
+  }
+  60% {
+    top: -93px;
+  }
+  80% {
+    top: -124px;
+  }
+}
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -31px;
+  }
+  40% {
+    top: -62px;
+  }
+  60% {
+    top: -93px;
+  }
+  80% {
+    top: -124px;
+  }
+}
+
+.desktop-brand {
+    display: block;
+}
+.mobile-brand {
+    display: none;
+}
