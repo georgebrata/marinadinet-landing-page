@@ -5,7 +5,8 @@
     --dark-color: black;
     --light-color: white;
     --primary-typography: "Montserrat", sans-serif;
-    --secondary-typography: "Noto Serif SC", serif;
+    --secondary-typography: 'Lora', sans-serif;
+    --tertiary-typography: "Noto Serif SC", serif;
     --loading-background: gray;
   }
 

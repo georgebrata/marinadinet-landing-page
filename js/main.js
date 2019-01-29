@@ -34,7 +34,7 @@
         $WIN.on('load', function() {
 
             // will first fade out the loading animation 
-            $("#loader").delay(1500).fadeOut("slow", function() {
+            $("#loader").delay(1000).fadeOut("slow", function() {
                 // will fade out the whole DIV that covers the website.
                 $("#preloader").fadeOut("fast");
             }); 
