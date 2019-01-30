@@ -79,7 +79,7 @@
             </h1>
             <h1 style="display: inline" id="typed"></h1>
           </div>
-          <div class="home-content__subscribe">
+          <div class="home-content__subscribe" style="margin-bottom: 30px;">
             <button type="button" class="c2a-btn info-toggle">
               Contactează-ne
             </button>
@@ -141,9 +141,9 @@
             Misiunea noastră este aceea de a fabrica o gamă vastă de produse din
             hârtie, care prin calitate, design și preț să reușească să satisfacă
             în totalitate cerințele consumatorilor. Facem acest lucru posibil
-            printr-o muncă devotată, de echipă, care începe din secția de
+            printr-o muncă asiduă, de echipă, care începe din secția de
             producție, urmând echipa de vânzări și distribuție, ca mai apoi voi,
-            clienții noștrii, să vă bucurați din plin de produsele noastre. Noi
+            clienții noștri, să vă bucurați din plin de produsele noastre. Noi
             vă asigurăm prețuri corecte și livrări la timp.
           </p>
           <h2>Strategie</h2>
@@ -161,7 +161,7 @@
             de producție a ajuns în facilitatea noastră din Oradea. Ne dorim ca
             pe viitor să ne dezvoltăm continuu, așa că investițile nu se vor
             opri aici. Astfel vom rămâne un jucător cheie din România, iar
-            consumatorii noștrii vor avea mereu aceeași experiență plăcută,
+            consumatorii noștri vor avea mereu aceeași experiență plăcută,
             confortabilă și igienică!
           </p>
           <h2 style="font-weight: 600;">Te vrem ca partener!</h2>
@@ -280,17 +280,6 @@
           document.querySelector("a .c2a-btn").style.opacity = 1;
         }, 5000);
       });
-
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementsByClassName("info-toggle")[1].style.opacity = "0";
-        } else {
-          document.getElementsByClassName("info-toggle")[1].style.opacity = "1";
-        }
-        prevScrollpos = currentScrollPos;
-      };
     </script>
   </body>
 </html>
